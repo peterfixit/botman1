@@ -204,7 +204,7 @@
 		"topic": "botman"
 	},
 	"teleports_cmd_AdminTeleport": {
-		"accessLevel": 4,
+		"accessLevel": 2,
 		"ingameOnly": true,
 		"command": " {#}tp {player name}\n {#}tp {name of teleport}\n {#}tp {X coord} {Y coord} {Z coord}\n {#}tp region {region X} {region Z} (tp's you to the centre of the region)\n {#}tp #1 (tele to the coords of a line in a numbered list eg. from {#}list saves)\n {#}north/south/east/west {distance}",
 		"topic": "teleports"
@@ -522,7 +522,7 @@
 		"topic": "admin"
 	},
 	"locations_cmd_LocationClearReset": {
-		"accessLevel": 3,
+		"accessLevel": 1,
 		"ingameOnly": false,
 		"command": " {#}location clear reset {location name}",
 		"topic": "locations"
@@ -882,7 +882,7 @@
 		"topic": "admin"
 	},
 	"tracker_cmd_Jump": {
-		"accessLevel": 2,
+		"accessLevel": 4,
 		"ingameOnly": true,
 		"command": " {#}jump {number of steps}",
 		"topic": "tracker"
@@ -954,7 +954,7 @@
 		"topic": "misc"
 	},
 	"botman_cmd_SetChatColours": {
-		"accessLevel": 2,
+		"accessLevel": 1,
 		"ingameOnly": false,
 		"command": " {#}set new player/player/donor/prisoner/mod/admin/owner chat colour FFFFFF\n {#}reset chat colour",
 		"topic": "botman"
@@ -1062,7 +1062,7 @@
 		"topic": "bot"
 	},
 	"tracker_cmd_SkipSteps": {
-		"accessLevel": 2,
+		"accessLevel": 4,
 		"ingameOnly": true,
 		"command": " {#}skip {number of steps}",
 		"topic": "tracker"
@@ -1080,7 +1080,7 @@
 		"topic": "shop"
 	},
 	"locations_cmd_RemoveLocation": {
-		"accessLevel": 4,
+		"accessLevel": 3,
 		"ingameOnly": false,
 		"command": " {#}location remove {name}",
 		"topic": "locations"
@@ -1104,7 +1104,7 @@
 		"topic": "admin"
 	},
 	"server_cmd_SetWelcomeMessage": {
-		"accessLevel": 2,
+		"accessLevel": 1,
 		"ingameOnly": false,
 		"command": " {#}set welcome message {your message here}\n {#}clear welcome message",
 		"topic": "server"
@@ -1140,7 +1140,7 @@
 		"topic": "teleports"
 	},
 	"groups_cmd_ListGroup": {
-		"accessLevel": 6,
+		"accessLevel": 90,
 		"ingameOnly": false,
 		"command": " {#}list group {number or name}",
 		"topic": "groups"
@@ -1182,7 +1182,7 @@
 		"topic": "admin"
 	},
 	"teleports_cmd_SetTeleportEndSize": {
-		"accessLevel": 4,
+		"accessLevel": 2,
 		"ingameOnly": true,
 		"command": " {#}tele {name} end size {radius in blocks}",
 		"topic": "teleports"
@@ -1656,7 +1656,7 @@
 		"topic": "info"
 	},
 	"locations_cmd_SetLocationCloseHour": {
-		"accessLevel": 4,
+		"accessLevel": 3,
 		"ingameOnly": false,
 		"command": " {#}location {name} close {0-23}",
 		"topic": "locations"
@@ -2178,7 +2178,7 @@
 		"topic": "base"
 	},
 	"locations_cmd_MoveLocation": {
-		"accessLevel": 4,
+		"accessLevel": 3,
 		"ingameOnly": true,
 		"command": " {#}location move {name}",
 		"topic": "locations"
@@ -2208,7 +2208,7 @@
 		"topic": "waypoints"
 	},
 	"locations_cmd_SetLocationAccess": {
-		"accessLevel": 4,
+		"accessLevel": 3,
 		"ingameOnly": false,
 		"command": " {#}location {name} access {minimum access level}",
 		"topic": "locations"
@@ -2238,7 +2238,7 @@
 		"topic": "botman"
 	},
 	"locations_cmd_SetLocationCost": {
-		"accessLevel": 4,
+		"accessLevel": 3,
 		"ingameOnly": false,
 		"command": " {#}location {name} cost {number}",
 		"topic": "locations"
@@ -2304,7 +2304,7 @@
 		"topic": "friends"
 	},
 	"locations_cmd_SetLocationSize": {
-		"accessLevel": 4,
+		"accessLevel": 3,
 		"ingameOnly": false,
 		"command": " {#}location {name} size {number}",
 		"topic": "locations"
@@ -2364,7 +2364,7 @@
 		"topic": "server"
 	},
 	"locations_cmd_RenameLocation": {
-		"accessLevel": 4,
+		"accessLevel": 3,
 		"ingameOnly": false,
 		"command": " {#}location {old name} rename {new name}",
 		"topic": "locations"
@@ -2496,7 +2496,7 @@
 		"topic": "admin"
 	},
 	"locations_cmd_SetClearLocationCategory": {
-		"accessLevel": 4,
+		"accessLevel": 3,
 		"ingameOnly": false,
 		"command": " {#}location {name} category {category name}\n {#}location {name} clear category",
 		"topic": "locations"
@@ -2574,13 +2574,13 @@
 		"topic": "bot"
 	},
 	"locations_cmd_SetLocationCoolDownTimer": {
-		"accessLevel": 4,
+		"accessLevel": 3,
 		"ingameOnly": false,
 		"command": " {#}set location {name} cooldown {number in seconds}",
 		"topic": "locations"
 	},
 	"locations_cmd_LocationClearSpawnPoints": {
-		"accessLevel": 4,
+		"accessLevel": 3,
 		"ingameOnly": false,
 		"command": " {#}location {name} clear",
 		"topic": "locations"
@@ -2658,7 +2658,7 @@
 		"topic": "admin"
 	},
 	"locations_cmd_ToggleLocationIsRound": {
-		"accessLevel": 4,
+		"accessLevel": 3,
 		"ingameOnly": false,
 		"command": " {#}location round/circle/square/rectangle {name}",
 		"topic": "locations"
@@ -2700,7 +2700,7 @@
 		"topic": "locations"
 	},
 	"teleports_cmd_CreateTeleportEnd": {
-		"accessLevel": 4,
+		"accessLevel": 2,
 		"ingameOnly": true,
 		"command": " {#}tele {name} end",
 		"topic": "teleports"
