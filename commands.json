@@ -300,7 +300,7 @@
 		"topic": "admin"
 	},
 	"teleports_cmd_FetchPlayer": {
-		"accessLevel": 90,
+		"accessLevel": 3,
 		"ingameOnly": true,
 		"command": " {#}fetch {player name}",
 		"topic": "teleports"
@@ -654,7 +654,7 @@
 		"topic": "shop"
 	},
 	"teleports_cmd_VisitPlayer": {
-		"accessLevel": 99,
+		"accessLevel": 4,
 		"ingameOnly": true,
 		"command": " {#}visit {player name} {#}goto {player name}",
 		"topic": "teleports"
